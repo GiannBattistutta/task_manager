@@ -54,6 +54,11 @@ python3 main_en.py
 - Type hints
 - Code organization
 
+  ## How to run
+
+```bash
+python3 task_manager.py
+
 ---
 
 This project is ideal for learning and demonstrating Python basics in a practical way.
