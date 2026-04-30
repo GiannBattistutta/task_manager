@@ -1,64 +1,40 @@
-# 📝 Task Manager (Terminal Project)
+# Task Manager
 
-A simple terminal project in Python that demonstrates logic, code organization, and file manipulation.
+A terminal-based task manager built with Python.  
+This project demonstrates object-oriented programming, JSON file persistence, input validation, task management logic and basic data organization.
 
 ## Features
 
-- Add task
-- List tasks
-- Mark as completed
-- Remove task
-- Save to .json file
+- Add new tasks
+- List all tasks
+- Mark tasks as completed
+- Remove tasks
+- Show task statistics
+- Save tasks to a JSON file
+- Load saved tasks when the program starts
 
-## Usage
+## Technologies Used
 
-1. Run the program:
+- Python
+- JSON
+- Object-Oriented Programming
+- File handling
+- Git
+- GitHub
 
-```bash
-cd task_manager
-python3 main_en.py
-```
+## How It Works
 
-2. Follow the menu options:
+The program stores tasks in a local JSON file.  
+Each task includes an ID, title, description, completion status, creation date and completion date.
 
-```
-1. Add task
-2. List tasks
-3. Mark task as completed
-4. Remove task
-5. Show statistics
-6. Exit
-```
-
-## Example JSON file
+## Task Object Example
 
 ```json
-[
-  {
-    "id": 1,
-    "title": "Study Python",
-    "description": "Learn about classes",
-    "completed": false,
-    "created_at": "2026-04-23T10:30:45.123456",
-    "completed_at": null
-  }
-]
-```
-
-## Concepts Demonstrated
-
-- Object-Oriented Programming (OOP)
-- File manipulation (JSON)
-- Data structures (lists, dicts)
-- Input/Output and validation
-- Type hints
-- Code organization
-
-  ## How to run
-
-```bash
-python3 task_manager.py
-
----
-
-This project is ideal for learning and demonstrating Python basics in a practical way.
+{
+  "id": 1,
+  "title": "Study Python",
+  "description": "Practice object-oriented programming",
+  "completed": false,
+  "created_at": "2026-04-23T10:30:45.123456",
+  "completed_at": null
+}
